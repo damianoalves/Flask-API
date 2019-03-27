@@ -4,7 +4,7 @@ Example API with Python and Flask
 
 ## Deployment
 
-https://basic-study-rest-api.herokuapp.com/
+https://flask-python-restful-api.herokuapp.com/
 
 ## Built With
 
