@@ -1,6 +1,6 @@
 # Project Title
 
-Example APi with Python and Flask
+Example API with Python and Flask
 
 ## Deployment
 
