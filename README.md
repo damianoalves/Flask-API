@@ -1,4 +1,4 @@
-# Project Title
+# Flask API Example
 
 Example API with Python and Flask
 
