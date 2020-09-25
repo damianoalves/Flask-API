@@ -46,3 +46,4 @@ LOGGING_CONFIG = {
 # Loggers
 logging.config.dictConfig(LOGGING_CONFIG)
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
+logging.getLogger('sqlalchemy.dialects.postgresql').setLevel(logging.INFO)
