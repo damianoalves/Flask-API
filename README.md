@@ -1,6 +1,7 @@
 # Flask API
 
-Flask API project.
+This is a Flask API that I will keep improving with new features and functionalities.
+This boilerplate can be used as a template for bigger projects.
 
 ##Introduction
 
@@ -48,12 +49,20 @@ flask run --host=0.0.0.0
 
 ## Contributing
 
-This API was developed based on [Flask's documentation](https://flask.palletsprojects.com/) and [REST APIs with Flask and Python](https://www.udemy.com/rest-api-flask-and-python/) course 
+This API was developed based on:
+
+[Flask's documentation](https://flask.palletsprojects.com/)
+
+[REST APIs with Flask and Python](https://www.udemy.com/rest-api-flask-and-python/) 
+
+[The Ultimate Flask Course](https://www.udemy.com/the-ultimate-flask-course) 
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Certificate
+
 
 [Certificate](https://www.udemy.com/certificate/UC-CYMYZILZ/)
