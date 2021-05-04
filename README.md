@@ -3,13 +3,13 @@
 This is a Flask API that I will keep improving with new features and functionalities.
 This boilerplate can be used as a template for bigger projects.
 
-##Introduction
+### Introduction
 
 The “micro” in microframework means Flask aims to keep the core simple but extensible. Flask won’t make many decisions for you, such as what database to use.
 
 By convention, templates and static files are stored in subdirectories within the application’s Python source tree, with the names templates and static respectively.
 
-## Dependencies
+### Dependencies
 
 * [Python](https://www.python.org/) - Programming Language
 * [Flask](https://flask.palletsprojects.com/) - The framework used
@@ -20,13 +20,19 @@ By convention, templates and static files are stored in subdirectories within th
 * [RESTful](https://restfulapi.net/) - REST docs
 * [Representational State Transfer](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) - Article by Roy Fielding
 
-## Virtual environments
+### Virtual environments
 
 ```
 $ sudo apt-get install python-virtualenv
 $ python3 -m venv venv
 $ . venv/bin/activate
 $ pip install Flask
+```
+
+Install all project dependencies using:
+
+```
+$ pip install -r requirements.txt
 ```
 
 ### Running
@@ -47,11 +53,43 @@ If you have the debugger disabled or trust the users on your network, you can ma
 flask run --host=0.0.0.0
 ```
 
+### Running using Manager
+
+This app can be started using Flask Manager. It provides some useful commands and configurations, also, it can be customized with more functionalities.
+
+```
+python manage.py runserver
+```
+
+### Alembic Migrations
+
+Use the following commands to create a new migration file and update the database with the last migrations version:
+
+```
+flask db revision --autogenerate -m "description here"
+flask db upgrade head
+```
+
+This project also uses the customized manager command to perform migrations.
+```
+python manage.py db revision --autogenerate -m "description here"
+python manage.py db upgrade head
+```
+
+To upgrade the database with the newest migrations version, use:
+
+```
+python manage.py db upgrade head
+```
+
+For more information, access [Auto generating migrations](https://alembic.sqlalchemy.org/en/latest/autogenerate.html).
+
+
 ## Contributing
 
 This API was developed based on:
 
-[Flask's documentation](https://flask.palletsprojects.com/)
+[Flask documentation](https://flask.palletsprojects.com/)
 
 [REST APIs with Flask and Python](https://www.udemy.com/rest-api-flask-and-python/) 
 
