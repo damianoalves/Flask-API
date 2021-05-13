@@ -8,7 +8,7 @@ Flask-RESTful==0.3.8
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.4.4
 psycopg2-binary==2.8.6
-pydantic==1.6.1
+pydantic==1.6.2
 SQLAlchemy-i18n==1.0.3
 SQLAlchemy-Utils==0.36.8
 Werkzeug==1.0.1
