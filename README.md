@@ -3,6 +3,8 @@
 This is a Flask API that I will keep improving with new features and functionalities.
 This boilerplate can be used as a template for bigger projects.
 
+ ## 🔴 I'll start to improve this project again after a couple of years
+
 ### Introduction
 
 The “micro” in microframework means Flask aims to keep the core simple but extensible. Flask won’t make many decisions for you, such as what database to use.
